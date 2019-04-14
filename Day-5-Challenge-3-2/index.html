@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>repl.it</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css"
+	/>
+	<link href="index.css" rel="stylesheet" type="text/css" />
+    <style>
+
+       body {background-image: url("https://i.imgur.com/iXtP8jP.jpg");
+            font-family: Comic Sans MS;
+     }
+
+        </style>
+  </head>
+</head>
+
+<body>
+	<div id="container">
+		<header>
+			<h1>How to make Pizza Dough</h1>
+			<img src="https://i.imgur.com/QtiOrHA.gif">
+        <p>Forget frozen pizza dough! Make a  homemade  Pizza dough instead.This pizza dough is fresh and taste so delicious , that you will forget it is storeboug.</p>
+    </header>
+    <section id="ingredients" onmouseover="ingredientsHover()" onmouseout="ingredientsNormal()">
+        <h2>ingredients <i class="fa fa-book" aria-hidden="true"></i></h2>
+        <ul>
+           <li>White Flour:   4 Cups</li>
+         	 <li>Instant Yeast: 1 TBsp</li>
+         	 <li>Salt:1/2 tspas per taste</li>
+         	 <li>Baking Power:  1 & half Tsp</li>
+         	 <li>Butter:        60 gram</li>
+         	 <li>Egg            1 large</li>
+         	 <li>Water As per required</li>
+        </ul>
+    </section>
+    
+    <section id="preparation" onmouseover="preparationHover()" onmouseout="preparationNormal()">
+        <h2>preparation <i class="fa fa-check" aria-hidden="true"></i></h2>
+        <ol>
+            <li>Take a half cup warm water and mix instant yeast and wait for 5 mins, then add baking power and mix it well</li>
+        	<li>In a separate big bowl add flour ,salt ,egg and butter and lighty mix it</li>
+        	<li>Now add yeast mixture with flour mixture and start knead with warm water and mix it well</li>
+        	<li>Now start kneading a soft dough.you can use either hand or food mixer.Dough should be knead well without any lums and not too sticky(you can use dry flour but not so much</li>
+        	<li>Leave the mixture in a bowl and cover with a tea towel or clingfilm and put in a warm place</li>
+        	<li>After about 4 to 5 hours, dough will be airy and double in size.Now you can use with any sauce and topping and make a delicious pizza</li>
+        	<li>Enjoy!</li>
+        </ol>
+    </section>
+    <footer>
+        <p>Copyright Me 2018</p>
+    </footer>
+    </div>
+    <script>
+        function ingredientsHover() {
+            document.getElementById('ingredients').firstElementChild.firstElementChild.style.fontSize = '300%';
+        }
+
+
+        function ingredientsNormal() {
+            document.getElementById('ingredients').firstElementChild.firstElementChild.style.fontSize = '100%';
+            // document.write("Normal");  
+        }
+
+
+        function preparationHover() {
+            document.getElementById('preparation').firstElementChild.firstElementChild.style.fontSize = '300%';
+        }
+
+
+        function preparationNormal() {
+            document.getElementById('preparation').firstElementChild.firstElementChild.style.fontSize = '100%';
+        }
+    </script>
+  </body>
+</html>

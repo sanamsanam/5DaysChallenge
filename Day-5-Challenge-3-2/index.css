@@ -1,0 +1,42 @@
+body{
+  font-family: fantasy;
+  color: blue;
+}
+#container{
+  width: 60%;
+  margin: auto;
+}
+
+h1{
+  font-size: 300%;
+}
+
+h1,h2{
+  color:red ;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+img{
+  width: 70%;
+}
+
+footer{
+  margin-top: 70px;
+  background-color: blue;
+  color: white;
+}
+
+footer p {
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+@media screen and (max-width: 768px){
+  #container{
+  width: 90%;
+  }
+  h1{
+    font-size: 200%;}
+}
